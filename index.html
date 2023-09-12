@@ -1,0 +1,188 @@
+ <!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta name="viewport" content="width-device, initial-scale=1.0">
+    <title>Lenox | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logobest.jpg">
+    <script src="https://kit.fontawesome.com/3bc8c0c6b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+     
+    <div id="header background">
+        <header >
+        
+            <nav>
+                
+            
+                <div class="logo">
+                    <a href="">
+                      <img src="images/logofinal.png" >
+                    </a>
+                  </div>
+                    <ul id="sidemenu">
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                <div class="nav-toggle">
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+            
+            <div id="banner"class="header-text">
+                <div class="top top-1">
+                    <h1>HI, I'M LENOX BROWN</h1>
+                </div>
+                <div class="top">
+                    <h2 id="statement" class="self-written"></h2>
+                </div>
+                
+            </div>
+        </header>  
+        
+    </div>
+
+     
+<!----------------about---------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Lenox 2.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>Lenox Brown is a Backend developer, Mobile Developer , Machine Learning Engineer inclusive of AI-powered chatbots.</p>
+            
+                <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>WEB DEV</span><br>Unique web development skills, including creating responsive websites, custom web applications, e-commerce sites, and content management systems.</li>
+                        <li><span>MOBILE DEV</span><br>Creation of responsive mobile applicaton</li>
+                        <li><span>ML Engineer</span><br>Excperienced in data visualizations and machine learning models</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 Jan - current</span><br>Intenisty  data visualization project.</li>
+                        <li><span>2022 - 2023 Jan</span><br>The token app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 to date</span><br>Undertaking BSc in Software Engineering</li>
+                        <li><span>2017 - 2020</span><br>Ramba Boys High School</li>
+                        <li><span>2016 and below</span><br>Primary school and early childhood</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>WEB DEV</h2>
+                <p>Unique web development skills, including creating responsive websites, custom web applications, e-commerce sites, and content management systems.</p>
+            
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>MOBILE DEV</h2>
+                <p>Expertise in building iOS,Android, or cross platform mobile apps. Integration of mobile apps and AI i.e voice assistants in a productivity app and image recognition in a shopping app.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>ML & AI</h2>
+                <p>Creation of AI-powered  chatbots for customer support or interactive user experience. Creation of informative data visualizations to communicate insights for data. Development of machine learning models for tasks such as image recognition, natural language processing, recommendation systems, and predicitive analytics.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ai.jpg">
+                <div class="layer">
+                    <h3>ML & AI</h3>
+                    <p>Intenisty  data visualization project.</p>
+                    <!-- <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/java.jpg">
+                <div class="layer">
+                    <h3>Mobile dev</h3>
+                    <p>Birmingham Celebs Blog App</p>
+                    <!-- <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/django.jpg">
+                <div class="layer">
+                    <h3>Backend dev</h3>
+                    <p>The Zerix crypto project.</p>
+                    <!-- <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/brownlenox" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>lenoxbrown88@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/brownlenox24?t=GNyA9QtTg_RdkowjdOI-zQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com/brownlenox24?utm_source=qr&igshid=MThlNWY1MzQwNA=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/lenox-brown-833959248"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/254745383292"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <a href="images/Lenox_cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form id="email-form">
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" value="Send Email">Submit</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Lenox. Made with <i class="fa-solid fa-heart"></i> from Lenox</p>
+    </div>
+</div>
+
+<script src="portfolio.js"></script>
+<script src="config.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+
+ </html>
